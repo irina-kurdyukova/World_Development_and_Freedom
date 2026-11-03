@@ -101,3 +101,15 @@
 ## 8. Код исследования
 
 [Jupyter Notebook — сбор, обработка и анализ данных](analysis/01_explore_hdi.ipynb)
+
+## 9. Воспроизведение исследования
+
+Для работы с проектом необходимы Python, Jupyter Notebook и библиотеки `pandas`, `numpy`, `matplotlib`, `seaborn`, `pycountry`, `openpyxl` и `xlrd`.
+
+Основной файл анализа: `analysis/01_explore_hdi.ipynb`.
+
+Исходные данные получены из World Bank, UNDP, Transparency International, V-Dem, Reporters Without Borders и CIRIGHTS. Для полного повторного запуска необходимо скачать соответствующие наборы данных и разместить их в папке `raw_data/`, сохранив имена файлов, используемые в ноутбуке.
+
+Ноутбук следует запускать из папки `analysis/`. Итоговая таблица сохраняется в `analysis/processed_data/`, а визуализации — в корневой папке `visualizations/`.
+
+В репозитории опубликованы обработанные данные, код и готовые визуализации. Крупные исходные наборы данных не включены.
